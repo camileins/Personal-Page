@@ -1,0 +1,105 @@
+body{
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+   margin: 0;
+}
+.fwh-slide{
+    height: 90vh;
+    /* background-color: #525DFF; */
+    background-color: black;
+    box-sizing: border-box;
+    padding: 4rem;
+    /* 100% of visible height area */
+}
+
+/* .fwh-slide--bg-white{
+    background: antiquewhite;
+    color: aqua;
+} */
+
+
+.nav-link:link, .nav-link:visited{
+    font-weight: 100;
+   color: #AFB4FF;
+   
+}
+
+.nav-link:hover, .nav-link:active{
+    font-weight: 100;
+   color: #525DFF;
+}
+
+.presentation{
+    font-family:  'Open Sans', sans-serif;
+    color: white;
+    justify-content: center;
+}
+
+.navbar{
+    background-color:  black;
+  /* position: fixed; */
+    
+}
+
+.gif-cami{
+    
+    height: 20rem;
+}
+
+.cami{
+   
+    padding: 2rem;
+    justify-content: flex-start;
+}
+
+.presentation-text{
+    justify-content: flex-end;
+    /* text-align: center; */
+    margin: auto;
+    text-align: right;
+
+
+}
+.hello{
+    font-weight:800;
+}
+
+
+
+.links{
+    height: 4rem;
+}
+.footer-logos{
+    justify-content:flex-end;
+}
+.about, .experience, .portfolio, .contact, .footer-style{
+    font-family:  'Open Sans', sans-serif;
+    color: #AFB4FF;
+ 
+    width: 100%;
+    text-align: left;
+    justify-content: center;
+}
+.about{
+    justify-content: center;
+}
+p, .about{
+    font-weight: 100;
+}
+h2{
+    font-weight: 800;
+}
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: black;
+     }
+    
+     .navbar-toggler .line{
+        width: 100%;
+        float: left;
+        height: 2px;
+        background-color:#AFB4FF;
+        margin-bottom: 5px;
+        }
+
