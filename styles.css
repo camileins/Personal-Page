@@ -1,14 +1,17 @@
 body{
     background-color: black;
     font-family: 'Open Sans', sans-serif;
-   margin: 0;
+    margin: 0px;
 }
 .fwh-slide{
     height: 90vh;
     /* background-color: #525DFF; */
     background-color: black;
     box-sizing: border-box;
-    padding: 4rem;
+    /* padding: 4rem; */
+    padding-top: 16vh;
+
+    
     /* 100% of visible height area */
 }
 
@@ -16,7 +19,9 @@ body{
     background: antiquewhite;
     color: aqua;
 } */
-
+.sticky{
+    position: fixed;
+}
 
 .nav-link:link, .nav-link:visited{
     font-weight: 100;
@@ -33,29 +38,42 @@ body{
     font-family:  'Open Sans', sans-serif;
     color: white;
     justify-content: center;
+    height: 100vh;
+    width: device-width;
+    margin: 0 auto;
+    max-width: device-width;
+
 }
 
+/* Backgropund colour makes the navbar semitransparent */
 .navbar{
-    background-color:  black;
-  /* position: fixed; */
-    
+    padding: 0;
+    height: 10vh;
+   padding-top: 6vh;
+   width: 100vw;
+   background-color:rgba(0, 0, 0, 0.9);   
+   /* background-color: rgba(255,255,255,0.5); */
 }
 
+
+/* .container-fluid{
+    opacity: 0.2;
+    position: fixed;
+
+}
+li{
+    opacity: 1;
+} */
 .gif-cami{
-    
     height: 20rem;
 }
 
 .cami{
-   
-    padding: 2rem;
-    justify-content: flex-start;
+    
+  
 }
 
 .presentation-text{
-    justify-content: flex-end;
-    /* text-align: center; */
-    margin: auto;
     text-align: right;
 
 
@@ -103,3 +121,7 @@ h2{
         margin-bottom: 5px;
         }
 
+.box{
+    width: 350px;
+    height: 350px;
+}
