@@ -4,10 +4,22 @@ body{
     margin: 0;
     padding: 0;
 }
-
 .fwh-slide{
+    /* height: 90vh; */
+    /* background-color: #525DFF; */
+    background-color: black;
+    box-sizing: border-box;
+    /* padding: 4rem; */
     padding-top: 16vh;
+
+    
+    /* 100% of visible height area */
 }
+
+/* .fwh-slide--bg-white{
+    background: antiquewhite;
+    color: aqua;
+} */
 .sticky{
     position: fixed;
 }
@@ -22,6 +34,7 @@ body{
     font-weight: 100;
    color: #525DFF;
 }
+
 .presentation{
     font-family:  'Open Sans', sans-serif;
     color: white;
@@ -32,6 +45,8 @@ body{
     max-width: device-width;
 
 }
+
+/* Backgropund colour makes the navbar semitransparent */
 .navbar{
     padding: 0;
     height: 10vh;
@@ -40,9 +55,20 @@ body{
    background-color:rgba(0, 0, 0, 0.9);   
    /* background-color: rgba(255,255,255,0.5); */
 }
+
+
+/* .container-fluid{
+    opacity: 0.2;
+    position: fixed;
+
+}
+li{
+    opacity: 1;
+} */
 .gif-cami{
     height: 20rem;
 }
+
 
 .presentation-text{
     text-align: right;
@@ -82,13 +108,17 @@ h2{
     width: 47px;
     height: 34px;
     background-color: black;
-}
+     }
     
- .navbar-toggler .line{
-    width: 100%;
-    float: left;
-    height: 2px;
-    background-color:#AFB4FF;
-    margin-bottom: 5px;
-}
+     .navbar-toggler .line{
+        width: 100%;
+        float: left;
+        height: 2px;
+        background-color:#AFB4FF;
+        margin-bottom: 5px;
+        }
 
+.box{
+    width: 350px;
+    height: 350px;
+}
