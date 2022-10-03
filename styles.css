@@ -5,12 +5,20 @@ body{
     padding: 0;
 }
 
-.fwh-slide{
+.arriba{
     padding-top: 16vh;
 }
-.sticky{
-    position: fixed;
+hr{
+    margin: auto;
+    color: #AFB4FF;
+    width: 30%;
+    border: 1px dotted;
+    border-radius: 100px;
+    opacity: 1;
 }
+
+
+
 
 .nav-link:link, .nav-link:visited{
     font-weight: 100;
@@ -27,9 +35,9 @@ body{
     color: white;
     justify-content: center;
     height: 50vh;
-    width: device-width;
     margin: 0 auto;
     max-width: device-width;
+    width: 70%;
 
 }
 .navbar{
@@ -46,6 +54,8 @@ body{
 
 .presentation-text{
     text-align: right;
+    width:40%;
+    
 
 
 }
@@ -63,20 +73,28 @@ body{
 }
 .about, .experience, .portfolio, .contact, .footer-style{
     font-family:  'Open Sans', sans-serif;
+    text-align: justify;
     color: #AFB4FF;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
  
-    width: 100%;
-    text-align: left;
-    justify-content: center;
+   
 }
-.about{
-    justify-content: center;
+
+@media (min-width: 769px){
+    .about, .experience, .portfolio, .contact, .footer-style{
+        width: 40%;
+    }
 }
+
 p, .about{
     font-weight: 100;
 }
 h2{
     font-weight: 800;
+    text-align: center;
+   
 }
 .navbar-toggler{
     width: 47px;
@@ -91,4 +109,18 @@ h2{
     background-color:#AFB4FF;
     margin-bottom: 5px;
 }
+.navbar-collapse{
+    background-color:rgba(0, 0, 0, 0.9); 
+}
 
+.redes{
+    justify-content: center;
+}
+
+.sticky{
+    position: fixed;
+}
+
+footer{
+    background-image: linear-gradient(to top, #AFB4FF, black);
+}
